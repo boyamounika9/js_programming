@@ -376,5 +376,41 @@
 // oddsum(1348)
 
 
+//occurance of number
+
+// let number=273452
+// let digits=2
+// count=0
+
+// while(number!=0){
+//     let digit=number%10;
+//     if(digit==digits){
+//         count++
+//     }
+
+//     number=Math.floor(number/10)
+
+
+    
+// }
+// console.log(count)
+
+
+//frequency of number
+
+
+
+// function frequency(n){
+//     let obj={}
+//     while(n>0){
+//         let digit=n%10
+//         obj[digit]=(obj[digit] || 0)+1
+
+//         n=Math.floor(n/10)
+//     }
+//     console.log(obj)
+// }
+
+// frequency(77677645327908)
 
 
