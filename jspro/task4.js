@@ -234,7 +234,7 @@
 // GCD(12,18)
 
 
-
+//=======================
 
 
 // function gcd(a, b) {
@@ -251,7 +251,22 @@
 
 // console.log(gcd(12, 18));
 
+//=======================
 
+
+
+// let a1=12;
+// let b1=18;
+
+// while(b1!==0){
+//     let rem =a1%b1;
+//     a1=b1;
+//     b1=rem;
+// }
+// console.log(a1)
+
+
+//=======================
 
 // // 28. LCM of two numbers
 
@@ -276,6 +291,19 @@
 
 // LCM(12, 18);
 
+//=======================
+
+
+// let a=12;
+// let b=18;
+// let lcm=a;
+// while (lcm%b!==0){
+//     lcm+=a
+// }
+// console.log(lcm)
+
+
+//=======================
 
 // // 29. larges digit in given number
 
@@ -348,15 +376,5 @@
 // oddsum(1348)
 
 
-// console.log("gcd");
 
-let a1=12;
-let b1=18;
-
-while(b1!==0){
-    let rem =a1%b1;
-    a1=b1;
-    b1=rem;
-}
-console.log(a1)
 
