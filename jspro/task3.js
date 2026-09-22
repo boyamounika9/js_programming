@@ -408,17 +408,17 @@
 
 //32 . sum of odd numbers present in given number
 
-function oddsum(n){
-    let odddigitsum=0;
+// function oddsum(n){
+//     let odddigitsum=0;
 
-   while(n!=0){
-    let digit=n%10
-    if(digit%2!=0){
-        odddigitsum+=digit
-    }
-    n=Math.floor(n/10)
-   }
+//    while(n!=0){
+//     let digit=n%10
+//     if(digit%2!=0){
+//         odddigitsum+=digit
+//     }
+//     n=Math.floor(n/10)
+//    }
 
-   console.log(odddigitsum)
-}
-oddsum(1348)
+//    console.log(odddigitsum)
+// }
+// oddsum(1348)
