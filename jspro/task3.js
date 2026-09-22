@@ -1,0 +1,424 @@
+//palindrom programme
+
+// let n=121;
+// let dummy=n;
+// let rev=0;
+// while(n>0){
+//     let digit=n%10;
+//     rev=rev*10+digit;
+//     n=Math.floor(n/10);
+// }
+// if(dummy===rev){
+//  console.log(true);
+// }
+// else{
+//    console.log(false);
+// }
+
+
+//wajsp to find first n 3 digit palindrom numbers.
+
+// function firstPalindrom(n){
+//     let rev=0;
+//     let dummy=n;
+//     while(n>0){
+//         rev=rev*10+n%10;
+//         n=Math.floor(n/10)
+//     }
+//      return rev===dummy;
+// }
+// let values=[]
+// let i=100;
+// let num=5;
+// while(values.length<num){
+//     if(firstPalindrom(i)){
+//         values.push(i);
+//     }
+//     i++;
+// }
+// console.log(values);
+// firstPalindrom();
+
+
+//wajsp to get a factorial of a number
+
+// function findFactorial(n){
+//      let fact=1;
+//      for(let i=n;i>=1;i--){
+//          fact*=i;
+//      }
+//     console.log(fact);
+// }
+// findFactorial(4);
+
+
+//7*1=7
+// 7*2=14
+// 7*3=21
+// 7*4=28
+// 7*5=35
+// 7*6=42
+// 7*7=49
+// 7*8=56
+// 7*9=63
+// 7*10=70
+
+// function table(n) {
+//     let res = 1;
+
+//     for (let i = 1; i <= 10; i++) {
+//         res = n * i;
+//         console.log(n + "*" + i + "=" + res);
+//     }
+// }
+// table(7);
+
+
+
+
+//amstrong number
+
+// function amstrong(n){
+//     let len=countofdigits(n);
+//     let original=n;
+//     let sum=0;
+//     while(n>0){
+//         sum+=(n%10)**len
+//         n=Math.floor(n/10)
+//     }
+//     return original===sum
+// }
+
+// let result=amstrong(153);
+// console.log(result)
+
+
+
+// function countofdigits(n){
+//     let count=0;
+//     while(n>0){
+//         count++
+//         n=Math.floor(n/10)
+//     }
+//     return count
+// }
+
+
+
+//18 .wtjsp to pring all amst num from 1 to 1000
+// for(let i=1;i<=1000;i++){
+
+// function amstrong(n){
+//     let len=countofdigits(n);
+//     let original=n;
+//     let sum=0;
+//     while(n>0){
+//         sum+=(n%10)**len
+//         n=Math.floor(n/10)
+//     }
+//     return original===sum
+// }
+
+// let result=amstrong(i);
+// if(result)
+// {
+//     console.log(i)
+// }
+
+// function countofdigits(n){
+//     let count=0;
+//     while(n>0){
+//         count++
+//         n=Math.floor(n/10)
+//     }
+//     return count
+// }
+// }
+
+
+//19. wjsp to check whether the given number is prime or not
+
+// let n=10
+// let factcount=0;
+// let i=1;
+// while (i<=n){
+//     if(n%i==0){
+//         factcount++
+//     }
+//     i+=1;
+
+// }
+// if(factcount===2){
+//     console.log("prime number")
+// }
+// else{
+//     console.log("not a prime number")
+// }
+
+
+//20. wjsp to print all prime numbers up to 100
+
+
+// for(let j=1;j<=100;j++){
+
+//     let n=j
+// let factcount=0;
+// let i=1;
+// while (i<=n){
+//     if(n%i==0){
+//         factcount++
+//     }
+//     i+=1;
+
+// }
+// if(factcount===2){
+//     console.log(j)
+// }
+
+// }
+
+
+
+//21. wjspro to print fibinacci series up to n terms 
+
+// let n=5
+
+// let a = 0;
+// let b = 1;
+// let i = 0;
+
+// while (i < n) {
+//     console.log(a);
+
+//     let c = a + b;
+//     a = b;
+//     b = c;
+
+//     i++;
+// }
+
+//22 .perfect number
+// let number=6;
+// let sum=0
+// let i=1;
+// while(i<number){
+//     if(number%i==0){
+//         sum+=i
+//     }
+//     i++;
+// }
+
+// if(number===sum){
+//     console.log("it is a perfect number")
+// }
+// else{
+//     console.log("not a perfect number")
+// }
+
+
+//23 .perfect numbers from 1 to 100
+
+// for (let j=1;j<=1000;j++){
+// let number=j;
+// let sum=0
+// let i=1;
+// while(i<number){
+//     if(number%i==0){
+//         sum+=i
+//     }
+//     i++;
+// }
+
+// if(j===sum){
+//     console.log(j)
+// }
+
+
+// }
+
+//24. prinmt all factors
+
+// function fact(n){
+
+// for(i=1;i<=n;i++){
+//     if(n%i==0){
+//         console.log(i)
+//     }
+// }
+// }
+
+// fact(12)
+
+//25. number of factors to the given nimber
+
+// function numfact(n) {
+//     let count = 0;
+//     for (i = 1; i <= n; i++) {
+//         if (n % i == 0) {
+//             count++
+//         }
+//     }
+//     console.log(count)
+// }
+
+// numfact(12)
+
+//26. sum of factors of a given number
+
+// function sumfact(n) {
+//     let sum = 0;
+//     for (i = 1; i <= n; i++) {
+//         if (n % i == 0) {
+//             sum+=i
+//         }
+//     }
+//     console.log(sum)
+// }
+
+// sumfact(12)\
+
+
+//27. HCF/GCD of two numbers
+
+
+// function GCD(a, b) {
+//     let arr1 = [];
+//     let arr2 = [];
+
+//     for (i = 1; i <= a; i++) {
+//         if (a % i == 0) {
+//             arr1.push(i)
+//         }
+//     }
+
+//     for (j = 1; j <= b; j++) {
+//         if (b % j == 0) {
+//             arr2.push(j)
+//         }
+//     }
+
+
+//     let common = arr1.filter((ele)=>{
+//         if(arr2.includes(ele)){
+//             return ele
+//         }
+//     })
+//     console.log(common[common.length-1])
+
+// }
+
+// GCD(12,18)
+
+
+
+
+
+// function gcd(a, b) {
+//     let gcd = 1;
+
+//     for (let i = 1; i <= a && i <= b; i++) {
+//         if (a % i === 0 && b % i === 0) {
+//             gcd = i;
+//         }
+//     }
+
+//     return gcd;
+// }
+
+// console.log(gcd(12, 18));
+
+
+
+//28. LCM of two numbers
+
+// function LCM(a, b) {
+//     let max;
+
+//     if (a > b) {
+//         max = a;
+//     } else {
+//         max = b;
+//     }
+
+//     while (true) {
+//         if (max % a == 0 && max % b == 0) {
+//             console.log(max);
+//             break;
+//         }
+
+//         max++;
+//     }
+// }
+
+// LCM(12, 18);
+
+
+// 29. larges digit in given number
+
+// function large(n){
+//     let larger=0;
+
+//    while(n!=0){
+//     let digit=n%10
+//     if(digit>larger){
+//         larger=digit
+//     }
+//     n=Math.floor(n/10)
+//    }
+
+//    console.log(larger)
+// }
+// large(3489546)
+
+
+// 30. smallest digit present in the give number
+
+// function small(n){
+//     let smaller=9;
+
+//    while(n!=0){
+//     let digit=n%10
+//     if(digit<smaller){
+//         smaller=digit
+//     }
+//     n=Math.floor(n/10)
+//    }
+
+//    console.log(smaller)
+// }
+// small(13489546)
+
+
+// 31 . sum of even numbers present in given number
+
+// function evensum(n){
+//     let evendigitsum=0;
+
+//    while(n!=0){
+//     let digit=n%10
+//     if(digit%2==0){
+//         evendigitsum+=digit
+//     }
+//     n=Math.floor(n/10)
+//    }
+
+//    console.log(evendigitsum)
+// }
+// evensum(1348)
+
+//32 . sum of odd numbers present in given number
+
+function oddsum(n){
+    let odddigitsum=0;
+
+   while(n!=0){
+    let digit=n%10
+    if(digit%2!=0){
+        odddigitsum+=digit
+    }
+    n=Math.floor(n/10)
+   }
+
+   console.log(odddigitsum)
+}
+oddsum(1348)
