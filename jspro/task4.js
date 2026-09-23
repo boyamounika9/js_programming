@@ -478,36 +478,7 @@
 
 //38
 
-let number = 1479;
-
-let ascending = true;
-
-let previous = number % 10;
-number = Math.floor(number / 10);
-
-while (number != 0) {
-    let current = number % 10;
-
-    if (current >= previous) {
-        ascending = false;
-        break;
-    }
-
-    previous = current;
-    number = Math.floor(number / 10);
-}
-
-if (ascending) {
-    console.log("Ascending order");
-} else {
-    console.log("Not ascending order");
-}
-
-
-
-//39
-
-// let number = 988976433235;
+// let number = 1479;
 
 // let ascending = true;
 
@@ -517,7 +488,7 @@ if (ascending) {
 // while (number != 0) {
 //     let current = number % 10;
 
-//     if (current <= previous) {
+//     if (current >= previous) {
 //         ascending = false;
 //         break;
 //     }
@@ -527,10 +498,39 @@ if (ascending) {
 // }
 
 // if (ascending) {
-//     console.log("decending order");
+//     console.log("Ascending order");
 // } else {
-//     console.log("Not decending order");
+//     console.log("Not ascending order");
 // }
+
+
+
+//39
+
+let number = 988976433235;
+
+let ascending = true;
+
+let previous = number % 10;
+number = Math.floor(number / 10);
+
+while (number != 0) {
+    let current = number % 10;
+
+    if (current <= previous) {
+        ascending = false;
+        break;
+    }
+
+    previous = current;
+    number = Math.floor(number / 10);
+}
+
+if (ascending) {
+    console.log("decending order");
+} else {
+    console.log("Not decending order");
+}
 
 
 //40
