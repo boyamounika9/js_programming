@@ -457,51 +457,51 @@
 
 
 //37. 
-let number =6723476
-let obj={}
-while(number!=0){
-    let digit =number%10
-    obj[digit]=(obj[digit] || 0) + 1
-    number=Math.floor(number/10)
-}
-console.log(Object.keys(obj).join(""))
+// let number =6723476
+// let obj={}
+// while(number!=0){
+//     let digit =number%10
+//     obj[digit]=(obj[digit] || 0) + 1
+//     number=Math.floor(number/10)
+// }
+// console.log(Object.keys(obj).join(""))
 
-let result = "";
+// let result = "";
 
-for (let i = 0; i <= 9; i++) {
-    if (obj[i]) {
-        result = result + i;
-    }
-}
+// for (let i = 0; i <= 9; i++) {
+//     if (obj[i]) {
+//         result = result + i;
+//     }
+// }
 
-console.log(result);
+// console.log(result);
 
 //38
 
-// let number = 1479;
+let number = 1479;
 
-// let ascending = true;
+let ascending = true;
 
-// let previous = number % 10;
-// number = Math.floor(number / 10);
+let previous = number % 10;
+number = Math.floor(number / 10);
 
-// while (number != 0) {
-//     let current = number % 10;
+while (number != 0) {
+    let current = number % 10;
 
-//     if (current >= previous) {
-//         ascending = false;
-//         break;
-//     }
+    if (current >= previous) {
+        ascending = false;
+        break;
+    }
 
-//     previous = current;
-//     number = Math.floor(number / 10);
-// }
+    previous = current;
+    number = Math.floor(number / 10);
+}
 
-// if (ascending) {
-//     console.log("Ascending order");
-// } else {
-//     console.log("Not ascending order");
-// }
+if (ascending) {
+    console.log("Ascending order");
+} else {
+    console.log("Not ascending order");
+}
 
 
 
