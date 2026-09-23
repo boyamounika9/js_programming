@@ -444,37 +444,37 @@
 
 //36
 
-let number=10067
-let arr=[]
-while(number!=0){
-    let digit=number%10
-    if(digit!=0){
-        arr.push(digit)
-    }
-    number=Math.floor(number/10)
-}
-console.log(arr.reverse().join(""))
+// let number=10067
+// let arr=[]
+// while(number!=0){
+//     let digit=number%10
+//     if(digit!=0){
+//         arr.push(digit)
+//     }
+//     number=Math.floor(number/10)
+// }
+// console.log(arr.reverse().join(""))
 
 
 //37. 
-// let number =6723476
-// let obj={}
-// while(number!=0){
-//     let digit =number%10
-//     obj[digit]=(obj[digit] || 0) + 1
-//     number=Math.floor(number/10)
-// }
-// console.log(Object.keys(obj).join(""))
+let number =6723476
+let obj={}
+while(number!=0){
+    let digit =number%10
+    obj[digit]=(obj[digit] || 0) + 1
+    number=Math.floor(number/10)
+}
+console.log(Object.keys(obj).join(""))
 
-// let result = "";
+let result = "";
 
-// for (let i = 0; i <= 9; i++) {
-//     if (obj[i]) {
-//         result = result + i;
-//     }
-// }
+for (let i = 0; i <= 9; i++) {
+    if (obj[i]) {
+        result = result + i;
+    }
+}
 
-// console.log(result);
+console.log(result);
 
 //38
 
