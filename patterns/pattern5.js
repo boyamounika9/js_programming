@@ -18,15 +18,15 @@ let row="";
 //         * 
 // ==================================================
 
- n=9;
-for(let i=1;i<=n*2-1;i++){
-let row="";
- for(let j=1;j<=n;j++){
-    ((i<=n && i+j>=n+1)||(i>n && i-j<=n-1))?row+="* " : row+="  "
- }
- console.log(row);
+//  n=9;
+// for(let i=1;i<=n*2-1;i++){
+// let row="";
+//  for(let j=1;j<=n;j++){
+//     ((i<=n && i+j>=n+1)||(i>n && i-j<=n-1))?row+="* " : row+="  "
+//  }
+//  console.log(row);
  
-}
+// }
 //                 * 
 //               * * 
 //             * * * 
