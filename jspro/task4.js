@@ -391,7 +391,7 @@
 //     number=Math.floor(number/10)
 
 
-    
+
 // }
 // console.log(count)
 
@@ -413,4 +413,141 @@
 
 // frequency(77677645327908)
 
+//35
+// function dupli(n){
+// let obj = {}
+// while (n > 0) {
+//     let digit = n % 10
+//     obj[digit] = (obj[digit] || 0) + 1
+
+//     n = Math.floor(n / 10)
+// }
+
+
+// let res=[]
+// for (let key in obj) {
+//     if (obj[key] > 1){
+//          res.push(key)
+//     }
+       
+// }
+//  if(res.length>0){
+//     console.log(res)
+//    }
+//    else{
+//     console.log(null)
+//    }
+
+// }
+// dupli(1234)
+
+
+//36
+
+// let number=10067
+// let arr=[]
+// while(number!=0){
+//     let digit=number%10
+//     if(digit!=0){
+//         arr.push(digit)
+//     }
+//     number=Math.floor(number/10)
+// }
+// console.log(arr.reverse().join(""))
+
+
+//37. 
+// let number =6723476
+// let obj={}
+// while(number!=0){
+//     let digit =number%10
+//     obj[digit]=(obj[digit] || 0) + 1
+//     number=Math.floor(number/10)
+// }
+// console.log(Object.keys(obj).join(""))
+
+// let result = "";
+
+// for (let i = 0; i <= 9; i++) {
+//     if (obj[i]) {
+//         result = result + i;
+//     }
+// }
+
+// console.log(result);
+
+//38
+
+// let number = 1479;
+
+// let ascending = true;
+
+// let previous = number % 10;
+// number = Math.floor(number / 10);
+
+// while (number != 0) {
+//     let current = number % 10;
+
+//     if (current >= previous) {
+//         ascending = false;
+//         break;
+//     }
+
+//     previous = current;
+//     number = Math.floor(number / 10);
+// }
+
+// if (ascending) {
+//     console.log("Ascending order");
+// } else {
+//     console.log("Not ascending order");
+// }
+
+
+
+//39
+
+// let number = 988976433235;
+
+// let ascending = true;
+
+// let previous = number % 10;
+// number = Math.floor(number / 10);
+
+// while (number != 0) {
+//     let current = number % 10;
+
+//     if (current <= previous) {
+//         ascending = false;
+//         break;
+//     }
+
+//     previous = current;
+//     number = Math.floor(number / 10);
+// }
+
+// if (ascending) {
+//     console.log("decending order");
+// } else {
+//     console.log("Not decending order");
+// }
+
+
+//40
+let num=145
+let copy=num;
+let sum=0;
+while(num!=0){
+    let digit=num%10
+    let fact=1;
+    for(let i=1;i<=digit;i++){
+
+            fact=fact*i      
+    }
+     sum+=fact
+    num=Math.floor(num/10)
+}
+if(sum==copy){
+    console.log("yes")
+}
 
