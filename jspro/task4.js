@@ -414,14 +414,14 @@
 // frequency(77677645327908)
 
 //35
-function dupli(n){
-let obj = {}
-while (n > 0) {
-    let digit = n % 10
-    obj[digit] = (obj[digit] || 0) + 1
+// function dupli(n){
+// let obj = {}
+// while (n > 0) {
+//     let digit = n % 10
+//     obj[digit] = (obj[digit] || 0) + 1
 
-    n = Math.floor(n / 10)
-}
+//     n = Math.floor(n / 10)
+// }
 
 
 // let res=[]
@@ -444,16 +444,16 @@ while (n > 0) {
 
 //36
 
-// let number=10067
-// let arr=[]
-// while(number!=0){
-//     let digit=number%10
-//     if(digit!=0){
-//         arr.push(digit)
-//     }
-//     number=Math.floor(number/10)
-// }
-// console.log(arr.reverse().join(""))
+let number=10067
+let arr=[]
+while(number!=0){
+    let digit=number%10
+    if(digit!=0){
+        arr.push(digit)
+    }
+    number=Math.floor(number/10)
+}
+console.log(arr.reverse().join(""))
 
 
 //37. 
