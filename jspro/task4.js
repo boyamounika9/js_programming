@@ -507,47 +507,47 @@
 
 //39
 
-let number = 988976433235;
+// let number = 988976433235;
 
-let ascending = true;
+// let ascending = true;
 
-let previous = number % 10;
-number = Math.floor(number / 10);
+// let previous = number % 10;
+// number = Math.floor(number / 10);
 
-while (number != 0) {
-    let current = number % 10;
+// while (number != 0) {
+//     let current = number % 10;
 
-    if (current <= previous) {
-        ascending = false;
-        break;
-    }
+//     if (current <= previous) {
+//         ascending = false;
+//         break;
+//     }
 
-    previous = current;
-    number = Math.floor(number / 10);
-}
+//     previous = current;
+//     number = Math.floor(number / 10);
+// }
 
-if (ascending) {
-    console.log("decending order");
-} else {
-    console.log("Not decending order");
-}
+// if (ascending) {
+//     console.log("decending order");
+// } else {
+//     console.log("Not decending order");
+// }
 
 
 //40
-// let num=145
-// let copy=num;
-// let sum=0;
-// while(num!=0){
-//     let digit=num%10
-//     let fact=1;
-//     for(let i=1;i<=digit;i++){
+let num=145
+let copy=num;
+let sum=0;
+while(num!=0){
+    let digit=num%10
+    let fact=1;
+    for(let i=1;i<=digit;i++){
 
-//             fact=fact*i      
-//     }
-//      sum+=fact
-//     num=Math.floor(num/10)
-// }
-// if(sum==copy){
-//     console.log("yes")
-// }
+            fact=fact*i      
+    }
+     sum+=fact
+    num=Math.floor(num/10)
+}
+if(sum==copy){
+    console.log("yes")
+}
 
