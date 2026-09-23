@@ -400,28 +400,28 @@
 
 
 
-function frequency(n){
-    let obj={}
-    while(n>0){
-        let digit=n%10
-        obj[digit]=(obj[digit] || 0)+1
+// function frequency(n){
+//     let obj={}
+//     while(n>0){
+//         let digit=n%10
+//         obj[digit]=(obj[digit] || 0)+1
 
-        n=Math.floor(n/10)
-    }
-    console.log(obj)
-}
+//         n=Math.floor(n/10)
+//     }
+//     console.log(obj)
+// }
 
-frequency(77677645327908)
+// frequency(77677645327908)
 
 //35
-// function dupli(n){
-// let obj = {}
-// while (n > 0) {
-//     let digit = n % 10
-//     obj[digit] = (obj[digit] || 0) + 1
+function dupli(n){
+let obj = {}
+while (n > 0) {
+    let digit = n % 10
+    obj[digit] = (obj[digit] || 0) + 1
 
-//     n = Math.floor(n / 10)
-// }
+    n = Math.floor(n / 10)
+}
 
 
 // let res=[]
