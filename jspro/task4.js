@@ -111,7 +111,7 @@
 // let b = 1;
 // let j = 0;
 
-// while (i < n) {
+// while (j < n) {
 //     console.log(a);
 
 //     let c = a + b;
@@ -120,6 +120,17 @@
 
 //     j++;
 // }
+
+
+// function fibo(n){
+//     let arr=[0,1]
+//     let i=2
+//     while(arr.length<n){
+//         arr[i]=arr[i-1]+arr[i-2]
+//     }
+//     console.log(arr)
+// }
+// fibo(5)
 
 // // 22 .perfect number
 // // let number=6;
@@ -429,7 +440,7 @@
 //     if (obj[key] > 1){
 //          res.push(key)
 //     }
-       
+
 // }
 //  if(res.length>0){
 //     console.log(res)
@@ -534,20 +545,106 @@
 
 
 //40
-let num=145
-let copy=num;
-let sum=0;
-while(num!=0){
-    let digit=num%10
-    let fact=1;
-    for(let i=1;i<=digit;i++){
+// function strong(num){
+// let copy=num;
+// let sum=0;
+// while(num!=0){
+//     let digit=num%10
+//     let fact=1;
+//     for(let i=1;i<=digit;i++){
 
-            fact=fact*i      
-    }
-     sum+=fact
-    num=Math.floor(num/10)
-}
-if(sum==copy){
-    console.log("yes")
-}
+//             fact=fact*i      
+//     }
+//      sum+=fact
+//     num=Math.floor(num/10)
+// }
+// if(sum==copy){
+//     console.log(copy)
+// }
+// }
+// for(let j=1;j<=100000;j++){
+//     strong(j)
+// }
+
+
+
+//41
+
+// for(let i =1;i<=100000;i++){
+// let sum=0;
+//  m=i;
+// while(i!=0){
+
+//     let digit=i%10
+//     let fact=1;
+//     for(let j=1;j<=digit;j++){
+
+//             fact=fact*j     
+//     }
+//      sum+=fact
+//     i=Math.floor(i/10)
+// }
+
+//    if(m==i){
+//     console.log(i)
+//    }
+
+// }
+
+
+//42 harshad number
+// let num =18
+// copy=num;
+// let sum=0;
+// while(num!=0){
+//     let digit=num%10
+//     sum+=digit
+//     num=Math.floor(num/10)
+// }
+// if(copy%sum===0){
+//     console.log("harshad number")
+// }
+// else{
+//     console.log("not a harshad number")
+// }
+
+//43 automorphic number
+// function isautomarphic(n){
+//     let sqaure=n**2;
+//     while(n>0){
+//         let digit=n%10;
+//         let sqaredigit=sqaure%10;
+//         if(digit!==sqaredigit){
+//             return false
+//         }
+//         n=Math.floor(n/10)
+//         sqaure=Math.floor(sqaure/10)
+//     }
+//     return true
+// }
+// let x=isautomarphic(25)
+// console.log(x)
+
+
+//44. neon number
+// let number=9
+// let sqaure=number**2
+// let sum=0;
+// while(sqaure!=0){
+//     let digit=sqaure%10
+//     sum+=digit
+//     sqaure=Math.floor(sqaure/10)
+// }
+// if(sum==number){
+//     console.log("neon number")
+// }
+
+
+//45.
+
+
+
+
+
+
 
