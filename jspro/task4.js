@@ -640,7 +640,43 @@
 // }
 
 
-//45.
+//45.duck number
+
+// function isduckno(n){
+//     while(n>0){
+//         let last=n%10
+//         if(last===0){
+//             return true
+//         }
+//         n=Math.floor(n/10)
+//     }
+//     return false
+// }
+// let x=isduckno(10)
+// console.log(x)
+
+//46. spy number
+// function isspy(n){
+//     let sum=0;
+//     let mul=1;
+//     while(n>0){
+//         let digit=n%10;
+//         sum+=digit;
+//         mul*=digit;
+
+//         n=Math.floor(n/10)
+//     }
+//     if(sum===mul)
+//         console.log("spy")
+// }
+// isspy(123)
+
+//47.sunny number
+
+
+
+
+//check a given number is valid or not
 
 
 
