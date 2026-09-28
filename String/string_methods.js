@@ -27,3 +27,9 @@ console.log(str1.startsWith("ab"));
 console.log(str1.endsWith("fa"))
 
 
+//it is used to take the part of the string
+console.log(str1.slice(0,4))
+console.log(str1.slice(-3,-2))
+
+
+
