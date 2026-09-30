@@ -41,3 +41,15 @@
 // }
 // console.log(`vowels count is ${vowelscount}`)
 // console.log(` consonants count is ${ consonantscount}`)
+
+
+//5.Frequency of each charecter
+
+// let str="aabbcccddecfg"
+// let obj={}
+// for(let char of str){
+//     obj[char]=(obj[char] || 0)+1
+// }
+// console.log(obj)
+
+//6.Remove duplicate charecters
