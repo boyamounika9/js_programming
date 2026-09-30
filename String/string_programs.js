@@ -53,3 +53,9 @@
 // console.log(obj)
 
 //6.Remove duplicate charecters
+// let str="programming"
+// let obj={}
+// for(let char of str){
+//     obj[char]=(obj[char]||0)+1
+// }
+// console.log(Object.keys(obj).join(""))
