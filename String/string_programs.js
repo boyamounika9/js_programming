@@ -59,3 +59,57 @@
 //     obj[char]=(obj[char]||0)+1
 // }
 // console.log(Object.keys(obj).join(""))
+
+//7.Find the first no-repeating charecter
+// function fNonRep(str){
+//   let obj = {}, letter = '';
+//   for(let char of str){
+//     obj[char] = (obj[char] || 0) + 1;
+//   }
+
+//   for(let char of str){
+//     if(obj[char] < 2){
+//       console.log(char);
+//       break;
+//     }
+//   }
+// }
+
+// fNonRep('abacdee');
+// fNonRep('jeevanj');
+
+// 8.first repeating charecter
+// function fRepChar(str){
+//   let obj = {}, letter = '';
+//   for(let char of str){
+//     obj[char] = (obj[char] || 0) + 1;
+
+//     if(obj[char] > 1){
+//       letter = char;
+//       break;
+//     }
+//   }
+//   console.log(letter);
+// }
+// fRepChar('abcdbea');
+
+//9.Anagram ("listen" =="silent")
+
+// let ang = "silentmt"
+// function anagram(str) {
+//     if (str.length != ang.length)
+//         return "not a anagram"
+//     for (let i of str) {
+//         if (ang.includes(i)) {
+//             continue
+//         }
+//         else {
+
+//             return "not a anagram"
+//         }
+//     }
+//     return "anagram"
+// }
+// console.log(anagram("listen"))
+
+//10.
