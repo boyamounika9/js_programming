@@ -30,6 +30,8 @@ console.log(str1.endsWith("fa"))
 //it is used to take the part of the string
 console.log(str1.slice(0,4))
 console.log(str1.slice(-3,-2))
+console.log(str1.slice((str1.length)/2, (str1.length)/2+1))
+
 
 
 
