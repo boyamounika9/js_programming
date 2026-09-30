@@ -1,8 +1,18 @@
 //1. length of the string without inbuilt methods
 
-let str="Mounika"
-let count=0;
-for(let i of str){
-    count++
+// let str="Mounika"
+// let count=0;
+// for(let i of str){
+//     count++
+// }
+// console.log(count)
+
+//2.Reverse a string
+let str = "hello";
+let rev = "";
+
+for (let i = str.length - 1; i >= 0; i--) {
+    rev += str[i];
 }
-console.log(count)
+
+console.log(rev);
