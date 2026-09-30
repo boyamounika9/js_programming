@@ -8,11 +8,20 @@
 // console.log(count)
 
 //2.Reverse a string
-let str = "hello";
-let rev = "";
+// let str = "hello";
+// let rev = "";
 
-for (let i = str.length - 1; i >= 0; i--) {
-    rev += str[i];
-}
+// for (let i = str.length - 1; i >= 0; i--) {
+//     rev += str[i];
+// }
 
-console.log(rev);
+// console.log(rev);
+
+//3. Palindrome or not
+// let str="mom"
+// let copy=str;
+// let Reverse=""
+// for(let i=str.length-1;i>=0;i--){
+//     Reverse+=str[i]
+// }
+// console.log((Reverse===copy)? "yes":"no")
