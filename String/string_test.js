@@ -51,6 +51,9 @@
 
 
 
+
+//check if a string contains only digits
+
 // function digitornot(string){
 // for (let i of string) {
 
