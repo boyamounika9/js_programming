@@ -88,6 +88,9 @@
 
 
 
+
+//Toggle the case of every charecter
+
 // let str="Hello World"
 // let newstr=""
 // for(let i of str){
