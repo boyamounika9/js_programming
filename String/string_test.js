@@ -7,7 +7,7 @@
 // console.log(obj)
 
 
-
+//longest word in a sentence
 // let sen="i love programming"
 // let sentence=sen.split(" ")
 // let digitlength=0
