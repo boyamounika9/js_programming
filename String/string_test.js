@@ -72,6 +72,7 @@
 
 
 
+//find the duplicate charecters
 
 // let string="programming"
 // let obj={}
