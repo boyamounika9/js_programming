@@ -1,4 +1,5 @@
 //frequency of each charecter
+
 // let str='mounikamounika'
 // let obj={}
 // for(let i of str){
@@ -7,7 +8,11 @@
 // console.log(obj)
 
 
+
+
+
 //longest word in a sentence
+
 // let sen="i love programming"
 // let sentence=sen.split(" ")
 // let digitlength=0
@@ -30,6 +35,10 @@
 // }
 
 
+
+
+
+//removing spaces from a string
 
 // let string="hello world js"
 // let list=string.split(" ")
