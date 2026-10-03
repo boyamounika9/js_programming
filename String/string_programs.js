@@ -79,6 +79,7 @@
 // fNonRep('jeevanj');
 
 // 8.first repeating charecter
+
 // function fRepChar(str){
 //   let obj = {}, letter = '';
 //   for(let char of str){
@@ -95,21 +96,23 @@
 
 //9.Anagram ("listen" =="silent")
 
-// let ang = "silentmt"
-// function anagram(str) {
-//     if (str.length != ang.length)
-//         return "not a anagram"
-//     for (let i of str) {
-//         if (ang.includes(i)) {
-//             continue
-//         }
-//         else {
 
-//             return "not a anagram"
-//         }
-//     }
-//     return "anagram"
-// }
-// console.log(anagram("listen"))
+function anagram(str,ang) {
+    if (str.length != ang.length)
+        return "not a anagram"
+    for (let i of str) {
+        if (ang.includes(i)) {
+            continue
+        }
+        else {
 
-//10.
+            return "not a anagram"
+        }
+    }
+    return "anagram"
+}
+console.log(anagram("aabb", "abbb"))
+
+//10.count the number of words in a string
+
+
