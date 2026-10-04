@@ -128,11 +128,11 @@
 
 //10.count the number of words in a string
 
-let str="i love my self"
-let list=str.split(" ")
-let count=0
-for(let i of list){
-    count+=1
-}
-console.log(count)
+// let str="i love my self"
+// let list=str.split(" ")
+// let count=0
+// for(let i of list){
+//     count+=1
+// }
+// console.log(count)
 
