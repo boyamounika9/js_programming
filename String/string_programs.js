@@ -97,21 +97,34 @@
 //9.Anagram ("listen" =="silent")
 
 
-function anagram(str,ang) {
-    if (str.length != ang.length)
-        return "not a anagram"
-    for (let i of str) {
-        if (ang.includes(i)) {
-            continue
-        }
-        else {
+// let string1 = "listen";
+// let string2 = "silent";
 
-            return "not a anagram"
-        }
-    }
-    return "anagram"
-}
-console.log(anagram("aabb", "abbb"))
+// let obj1 = {};
+// let obj2 = {};
+
+// for (let i of string1) {
+//     obj1[i] = (obj1[i] || 0) + 1;
+// }
+
+// for (let i of string2) {
+//     obj2[i] = (obj2[i] || 0) + 1;
+// }
+
+// let isAnagram = true;
+
+// for (let i in obj1) {
+//     if (obj2[i] !== obj1[i]) {
+//         isAnagram = false;
+//         break;
+//     }
+// }
+
+// if (isAnagram && string1.length === string2.length) {
+//     console.log("yes");
+// } else {
+//     console.log("no");
+// }
 
 //10.count the number of words in a string
 
