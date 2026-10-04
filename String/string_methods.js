@@ -32,6 +32,35 @@ console.log(str1.slice(0,4))
 console.log(str1.slice(-3,-2))
 console.log(str1.slice((str1.length)/2, (str1.length)/2+1))
 
+/*
+length
+chatAt()
+at()
+indexOf()
+lastIndexOf()
+substring()
+slice()
+toUppercase()
+toLowercase()
+replace()
+replaceAll()
+concate()
+repeate()
+trim()
+trimEnd()
+trimStart()
+padEnd()
+padStart()
+localCompare()
+charCodeAt()
+string.fromcharCode()
+tostring()
+split()
+startswith()
+endswith()
+includes()
+*/
+
 
 
 
