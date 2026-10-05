@@ -320,5 +320,13 @@
 //===============================================
 
 
+//11. Reverse the words in a sentence // "I love JavaScript" // → "JavaScript love I"
+// let str= "I love JavaScript"
+// let rev=""
+// let list=str.split(" ")
+// for(let i=list.length-1;i>=0;i--){
+//     rev+=list[i]+" "
+// }
+// console.log(rev)
 
-
+//
