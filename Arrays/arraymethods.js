@@ -86,3 +86,15 @@ let arr=[1,2,3,4,5]
 // let res=arr.reduceRight((acc,ele)=>acc+ele)
 // console.log(res)
 
+
+
+//some method -it returns true when even one element satisfies the condition
+// let res=arr.some((ele)=>ele>4)
+// console.log(res)
+
+//every method -it returns true when all the elements satisfies the condition
+// let res=arr.every((ele)=>ele>0)
+// console.log(res)
+
+
+
