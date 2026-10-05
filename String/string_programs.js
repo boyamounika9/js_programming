@@ -362,3 +362,47 @@
 // }
 
 // console.log(result);
+
+
+
+//14.Check if a string contains only digits // "12345" → true // "123a5" → false
+// function isstringcontainsonlydigits(str){
+//     for(let i of str){
+//         if(i.charCodeAt(0)>=65 && i.charCodeAt(0)<=90 || i.charCodeAt(0)>=97 && i.charCodeAt(0)<=122  ){
+//             return false
+//         }
+//     }
+//    return true
+// }
+// console.log(isstringcontainsonlydigits("123a45"))
+
+
+//15.Find the most frequent character // "javascript" → "a"
+
+// let str="javascript"
+// let obj={}
+// let greterfre=0
+// let greterchar=""
+// for(let i of str){
+//     obj[i]=(obj[i]||0)+1
+
+//       if(obj[i]>greterfre){
+//         greterchar=i;
+//         greterfre=obj[i]
+//     }
+// }
+
+// console.log(`${greterchar} :${greterfre}`)
+
+
+//16.Remove spaces from a string // "hello world js" → "helloworldjs"
+// let str = "hello world js";
+// let newstr = "";
+
+// for (let i of str) {
+//     if (i !== " ") {
+//         newstr += i;
+//     }
+// }
+
+// console.log(newstr);
