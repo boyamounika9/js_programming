@@ -136,3 +136,189 @@
 // }
 // console.log(count)
 
+
+
+
+
+
+//===============================================================================================
+//===============================================================================================
+
+
+
+
+// 1. find the length of a string without length method.
+// let string="mounika"
+// let length=0;
+// for(let i of string){
+//     length=length+1
+// }
+// console.log(length)
+
+//===============================================
+
+//2. Reverse a string
+// let string="mounika"
+// let Reverse=""
+// for(let i=string.length-1;i>=0;i--){
+//     Reverse+=string[i]
+// }
+// console.log(Reverse)
+
+//===============================================
+
+
+// 3. Check if a string is a palindrome
+// let string="mom"
+// let Reverse=""
+// for(let i=string.length-1;i>=0;i--){
+//     Reverse+=string[i]
+// }
+// if(string===Reverse){
+//     console.log("Palindrome")
+// }
+// else{
+//     console.log("not a palindrome")
+// }
+
+//===============================================
+
+
+
+//4.Count vowels and consonants
+// let str="mounika"
+// let concount=0;
+// let vowcount=0;
+// let vowels="aeiouAEIOU"
+// for(let i of str){
+//     if(vowels.includes(i)){
+//         vowcount+=1
+//     }
+//     else{
+//         concount+=1
+//     }
+// }
+// console.log(`vowel count: ${vowcount}`)
+// console.log(`consonants count: ${concount}`)
+
+//===============================================
+
+
+//5.Count the frequency of each character
+// let str="jeevankumar"
+// let obj={}
+// for(let i of str){
+//     obj[i]=(obj[i]||0)+1
+// }
+// console.log(obj);
+
+
+//===============================================
+
+//6.Remove duplicate characters ."programming" → "progamin"
+// let str="programming"
+// let newstr=""
+// for(let i of str){
+//     if(!newstr.includes(i)){
+//         newstr+=i
+//     }
+// }
+// console.log(newstr)
+
+
+//===============================================
+
+//7.Find the first non-repeating character."aabbcdde" → "c"
+// function firstnonrepeating(str){
+//     let letter={}
+
+//     for(let i of str){
+//         letter[i]=(letter[i]||0)+1
+//     }
+
+//     for(let i in letter){
+//         if(letter[i]==1)
+//             return i
+//     }
+    
+// }
+
+// console.log(firstnonrepeating("aabbcdde"))
+
+//===============================================
+
+
+//8.Find the first repeating character. "abcdbea" → "b"
+// function firstnonrepeating(str){
+//     let obj={}
+
+//     for(let i of str){
+//        obj[i]=(obj[i]||0)+1
+
+//        if(obj[i]>1)
+//         return i
+//     }
+
+// }
+
+// console.log(firstnonrepeating("abcdbea"))
+
+//===============================================
+
+
+//9.Check whether two strings are anagrams. "listen", "silent" → true
+// function isanagrams(str1,str2){
+//     let obj1={}
+//     let obj2={}
+//     for(let i of str1){
+//         obj1[i]=(obj1[i]||0)+1
+//     }
+//     for(let i of str2){
+//         obj2[i]=(obj2[i]||0)+1
+//     }
+
+//     let Anagram=true
+//     for(let i in obj1){
+//         if(obj1[i] !== obj2[i]){
+//             Anagram=false
+//             break
+//         }
+//     }
+
+//     if(Anagram && str1.length === str2.length)
+//     {
+//         return "Anagram"
+//     }
+//     else{
+//         return " not Anagram"
+
+//     }
+
+// }
+// console.log(isanagrams("aabb", "abbb"))
+
+
+//===============================================
+
+
+//10. Count the number of words in a string // "JavaScript is awesome" → 3
+
+// let str="i love my self"
+// let count=1
+// for(let i of str){
+//     if(i==" ")
+//         count+=1
+// }
+// console.log(count);
+//( or )
+
+// let list=str.split(" ")
+// let count=list.length
+// console.log(count)
+
+
+//===============================================
+
+
+
+
