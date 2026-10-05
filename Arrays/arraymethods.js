@@ -17,3 +17,11 @@ let lastres=arr.findLast((ele)=>{
     }
 })
 console.log(lastres)
+
+
+let res=arr.find((ele)=>{
+    if(ele.name==="mallika"){
+        return ele
+    }
+})
+console.log(res)
