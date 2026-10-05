@@ -346,3 +346,19 @@
 // }
 
 // console.log(longest);
+
+
+//13.Capitalize the first letter of every word // "hello world" → "Hello World"
+// let str = "hello world";
+// let result = "";
+
+// for (let i = 0; i < str.length; i++) {
+
+//     if (i === 0 || str[i - 1] === " ") {
+//         result += String.fromCharCode(str.charCodeAt(i) - 32);
+//     } else {
+//         result += str[i];
+//     }
+// }
+
+// console.log(result);
