@@ -67,5 +67,22 @@ let arr=[1,2,3,4,5]
 
 
 //map-- it returns the array of transformed elements with the same length od original array
-let res=arr.map((ele)=>ele*2)
-console.log(res)
+// let res=arr.map((ele)=>ele*2)
+// console.log(res)
+
+
+//filter 
+
+// let res=arr.filter((ele)=>ele>=4)
+// console.log(res)
+
+
+//reduce
+// let res=arr.reduce((acc,ele)=>acc+ele)
+// console.log(res)
+
+
+//reduceRight
+// let res=arr.reduceRight((acc,ele)=>acc+ele)
+// console.log(res)
+
