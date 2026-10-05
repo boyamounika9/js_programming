@@ -406,3 +406,23 @@
 // }
 
 // console.log(newstr);
+
+
+
+//17.Count occurrences of a specific character "banana", 'a' → 3
+// function occurrences(char, string) {
+//     let count = 0;
+
+//     for (let i of string) {
+//         if (i === char) {
+//             count++;
+//         }
+//     }
+
+//     return count;
+// }
+
+// console.log(occurrences("a", "banana"));
+
+
+//18.
