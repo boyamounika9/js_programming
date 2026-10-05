@@ -379,20 +379,20 @@
 
 //15.Find the most frequent character // "javascript" → "a"
 
-// let str="javascript"
-// let obj={}
-// let greterfre=0
-// let greterchar=""
-// for(let i of str){
-//     obj[i]=(obj[i]||0)+1
+let str="javascript"
+let obj={}
+let greterfre=0
+let greterchar=""
+for(let i of str){
+    obj[i]=(obj[i]||0)+1
 
-//       if(obj[i]>greterfre){
-//         greterchar=i;
-//         greterfre=obj[i]
-//     }
-// }
+      if(obj[i]>greterfre){
+        greterchar=i;
+        greterfre=obj[i]
+    }
+}
 
-// console.log(`${greterchar} :${greterfre}`)
+console.log(`${greterchar} :${greterfre}`)
 
 
 //16.Remove spaces from a string // "hello world js" → "helloworldjs"
