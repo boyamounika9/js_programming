@@ -110,7 +110,15 @@
 
 
 //at(),tostring()
-let arr=["a","b","c","d"]
-console.log(arr[1])
-console.log(arr.at(-1))
-console.log(arr.toString())
+// let arr=["a","b","c","d"]
+// console.log(arr[1])
+// console.log(arr.at(-1))
+// console.log(arr.toString())
+
+
+//Array.isArray(),Array.from(),Array.of()
+
+// let arr=[1,2,3,4,5]
+// console.log(Array.isArray(arr))
+// let str="abcd"
+// console.log(Array.from(str))
