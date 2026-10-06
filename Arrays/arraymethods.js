@@ -61,7 +61,7 @@
 
 //foreach -- it dont return any value
 
-let arr=[1,2,3,4,5]
+// let arr=[1,2,3,4,5]
 // let res=arr.forEach((ele)=>ele*2)
 // console.log(res)
 
@@ -98,3 +98,12 @@ let arr=[1,2,3,4,5]
 
 
 
+//sort,reverse,tosorted,torversed
+// let arr=[7,8,5,3,9,2,1]
+// arr.sort((a,b)=>a-b)
+// let sortyedarr=arr.toSorted((a,b)=>a-b)
+// let reversedarr=arr.toReversed()
+// arr.reverse()
+// console.log(arr)
+// console.log(sortyedarr)
+// console.log(reversedarr)
