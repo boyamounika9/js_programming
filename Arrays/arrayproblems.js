@@ -7,7 +7,7 @@
 //     if(i>large){
 //         large=i
 //     }
-   
+
 // }
 // console.log(large)
 
@@ -55,3 +55,17 @@
 // }
 // console.log(`Evencount:${even}`)
 // console.log(`Oddcount:${odd}`)
+
+
+
+//search an element if target value present return index elese return -1
+function elementexist(value, arr) {
+
+    for (let i = 0; i <= arr.length; i++) {
+        if (value == arr[i]) {
+            return i
+        }
+    }
+    return -1
+}
+console.log(elementexist(90, [10, 20, 30, 40, 50]))
