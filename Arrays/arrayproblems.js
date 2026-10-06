@@ -24,3 +24,34 @@
 //     }  
 // }
 // console.log(small)
+
+
+//calculate sum and average
+
+// let arr=[10,20,30,40,50]
+// let sum=0
+// for (let i of arr){
+//     sum+=i
+// }
+// console.log(`sum: ${sum}`)
+// console.log(`Avg: ${sum/arr.length}`)
+
+
+
+
+//find the idd and even count
+
+// let arr=[10,15,22,7,8,13]
+// let odd=0;
+// let even=0;
+
+// for(let i of arr){
+//     if(i%2==0){
+//         even+=1
+//     }
+//     else{
+//         odd+=1
+//     }
+// }
+// console.log(`Evencount:${even}`)
+// console.log(`Oddcount:${odd}`)
