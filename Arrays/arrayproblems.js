@@ -59,13 +59,36 @@
 
 
 //search an element if target value present return index elese return -1
-function elementexist(value, arr) {
+// function elementexist(value, arr) {
 
-    for (let i = 0; i <= arr.length; i++) {
-        if (value == arr[i]) {
-            return i
-        }
+//     for (let i = 0; i <= arr.length-1; i++) {
+//         if (value == arr[i]) {
+//             return i
+//         }
+//     }
+//     return -1
+// }
+// console.log(elementexist(90, [10, 20, 30, 40, 50]))
+
+
+
+
+//Reverse a array without new array
+function reverseArray(arr) {
+    let start = 0;
+    let end = arr.length - 1;
+
+    while (start < end) {
+        // swap
+        let temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+
+        start++;
+        end--;
     }
-    return -1
+
+    return arr;
 }
-console.log(elementexist(90, [10, 20, 30, 40, 50]))
+
+console.log(reverseArray([10, 20, 30, 40, 50]));
