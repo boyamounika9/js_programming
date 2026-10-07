@@ -95,23 +95,55 @@
 
 
 // Find the Second Largest Element
-function Secondlarge(arr) {
+// function Secondlarge(arr) {
 
-    let large = arr[0];
-    let seclarge = -Infinity;
+//     let large = arr[0];
+//     let seclarge = -Infinity;
 
-    for (let i = 1; i < arr.length; i++) {
+//     for (let i = 1; i < arr.length; i++) {
 
-        if (arr[i] > large) {
-            seclarge = large;
-            large = arr[i];
-        }
-        else if (arr[i] > seclarge && arr[i] != large) {
-            seclarge = arr[i];
-        }
-    }
+//         if (arr[i] > large) {
+//             seclarge = large;
+//             large = arr[i];
+//         }
+//         else if (arr[i] > seclarge && arr[i] != large) {
+//             seclarge = arr[i];
+//         }
+//     }
 
-    console.log(seclarge);
-}
+//     console.log(seclarge);
+// }
 
-Secondlarge([10, 25, 7, 45, 25, 18]);
+// Secondlarge([10, 25, 7, 45, 25, 18]);
+
+
+
+//Count Frequency of Each Element
+// let arr=[10, 20, 10, 30, 20, 10]
+// let obj={}
+// for(let i of arr){
+//     obj[i]=(obj[i]||0)+1
+// }
+// console.log(obj)
+
+
+
+// Print Duplicate Elements
+
+// let arr=[10, 20, 30, 20, 40, 10, 50]
+// let obj={}
+// for(let i of arr){
+//     obj[i]=(obj[i]||0)+1
+
+//     if(obj[i]>1){
+//         console.log(i)
+//     }
+// }
+
+//Remove Duplicate Elements
+// let arr=[10, 20, 10, 30, 20, 40]
+// let obj={}
+// for(let i of arr){
+//     obj[i]=(obj[i]||0)+1
+// }
+// console.log(Object.keys(obj))
