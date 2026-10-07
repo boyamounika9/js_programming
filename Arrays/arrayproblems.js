@@ -141,9 +141,9 @@
 // }
 
 //Remove Duplicate Elements
-// let arr=[10, 20, 10, 30, 20, 40]
-// let obj={}
-// for(let i of arr){
-//     obj[i]=(obj[i]||0)+1
-// }
-// console.log(Object.keys(obj))
+let arr=[10, 20, 10, 30, 20, 40]
+let obj={}
+for(let i of arr){
+    obj[i]=(obj[i]||0)+1
+}
+console.log(Object.keys(obj))
