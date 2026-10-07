@@ -74,21 +74,44 @@
 
 
 //Reverse a array without new array
-function reverseArray(arr) {
-    let start = 0;
-    let end = arr.length - 1;
+// function reverseArray(arr) {
+//     let start = 0;
+//     let end = arr.length - 1;
 
-    while (start < end) {
-        // swap
-        let temp = arr[start];
-        arr[start] = arr[end];
-        arr[end] = temp;
+//     while (start < end) {
+//         // swap
+//         let temp = arr[start];
+//         arr[start] = arr[end];
+//         arr[end] = temp;
 
-        start++;
-        end--;
+//         start++;
+//         end--;
+//     }
+
+//     return arr;
+// }
+
+// console.log(reverseArray([10, 20, 30, 40, 50]));
+
+
+// Find the Second Largest Element
+function Secondlarge(arr) {
+
+    let large = arr[0];
+    let seclarge = -Infinity;
+
+    for (let i = 1; i < arr.length; i++) {
+
+        if (arr[i] > large) {
+            seclarge = large;
+            large = arr[i];
+        }
+        else if (arr[i] > seclarge && arr[i] != large) {
+            seclarge = arr[i];
+        }
     }
 
-    return arr;
+    console.log(seclarge);
 }
 
-console.log(reverseArray([10, 20, 30, 40, 50]));
+Secondlarge([10, 25, 7, 45, 25, 18]);
