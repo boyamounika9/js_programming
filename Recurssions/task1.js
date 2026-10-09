@@ -24,16 +24,7 @@
 
 
 //============= 1. print sum of 1 to 5 numbers ====================
-// let sumofnum=0
-// function sum(n){
-//     sumofnum+=n
-//     if(n==6){
-//         console.log(sumofnum)
-//         return
-//     }
-//     sum(n+1)
-// }
-// sum(1)
+
 
 // function sum(n){
 //     if(n==1){
