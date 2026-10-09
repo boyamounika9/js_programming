@@ -38,12 +38,32 @@
 
 
 //===================2.Reverse a string===============
-function reverse(str) {
-    if (str === "") {
-        return "";
+// function reverse(str) {
+//     if (str === "") {
+//         return "";
+//     }
+
+//     return reverse(str.slice(1)) + str[0];
+// }
+
+// console.log(reverse("hello"));
+
+
+//====================3.chech if a string is palindrome or not========================
+
+function isPalindrome(str) {
+    if (str.length <= 1) {
+        return true;
     }
 
-    return reverse(str.slice(1)) + str[0];
+    if (str[0] !== str[str.length - 1]) {
+        return false;
+    }
+
+    return isPalindrome(str.slice(1, -1));
 }
 
-console.log(reverse("hello"));
+console.log(isPalindrome("madam")); // true
+console.log(isPalindrome("hello")); // false
+console.log(isPalindrome("level")); // true
+
