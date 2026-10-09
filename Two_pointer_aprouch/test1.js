@@ -47,4 +47,34 @@
 // }
 // console.log(duplicate)
 
+//=================== Passsword Validation =====================
+function chechstring(str){
+    if(str.length<8){
+        return "lenght should be 8 char"
+    }
+    let obj={ up:false, low:false,digit:false, spe:false}
+   for(let i of str){
+        if((i.charCodeAt(0)>=65 && i.charCodeAt(0)<=90) ){
+            obj.up=true
+        }
+        else if((i.charCodeAt(0)>=92  && i.charCodeAt(0)<=122)){
+            obj.low=true
+        }
+        else if(i<Infinity && i>-Infinity){
+            obj.digit=true
+        }
+        else{
+            obj.spe=true
+        }
+    }
 
+  for(let i in obj){
+    if(obj[i]==false){
+        return `${i} needed`
+    }
+  }
+
+  return "succes"
+   
+}
+console.log(chechstring("abhgBvghv"))
