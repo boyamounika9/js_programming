@@ -23,16 +23,16 @@
 
 
 // ========== TWO SUM =========================
-let target=14
-let array=[1,2,4,6,13,7]
-for(let i=0;i<=array.length-1;i++){
-    for(let j=i+1;j<=array.length-1;j++){
-        if(array[i]+array[j]==target){
-           console.log(array[i],array[j])
-        }
-    }
+// let target=14
+// let array=[1,2,4,6,13,7]
+// for(let i=0;i<=array.length-1;i++){
+//     for(let j=i+1;j<=array.length-1;j++){
+//         if(array[i]+array[j]==target){
+//            console.log(array[i],array[j])
+//         }
+//     }
 
-}
+// }
 
 // ============= remove duplicate ==================
 
