@@ -1,3 +1,6 @@
+
+// 🟢 EASY LEVEL
+
 /*1. Find the Largest Element
 Given an integer array, find the largest element without using built-in sorting methods.
 
@@ -93,9 +96,43 @@ Input: {10, 20, 30, 40, 50} Target: 30
 Output: Element found at index 2 */
 
 
-let arr=[10, 20, 30, 40, 50]
-let target=30
-for(let i=0;i<=arr.length-1;i++){
-    if(arr[i]==target)
-        console.log(` Element found at index ${i}`)
-}
+// let arr=[10, 20, 30, 40, 50]
+// let target=30
+// for(let i=0;i<=arr.length-1;i++){
+//     if(arr[i]==target)
+//         console.log(` Element found at index ${i}`)
+// }
+
+
+
+
+
+// 🟡 MEDIUM LEVEL
+
+/* 6. Reverse an Array
+Reverse the elements of an array without creating another array.
+
+Example:
+
+Input: {10, 20, 30, 40, 50} Output: {50, 40, 30, 20, 10}
+
+ */
+
+
+// let arr=[10, 20, 30, 40, 50]
+// let first=0
+// let last= arr.length - 1
+// while(first<last){
+//     let temp=arr[first]
+//     arr[first]=arr[last]
+//     arr[last]=temp
+
+
+//     first++
+//     last--
+// }
+// console.log(arr)
+
+
+
+
