@@ -205,3 +205,23 @@ Output: 10 20
 //     if(obj[i]==2)
 //         console.log(i)
 // }
+
+
+
+
+/* 10. Remove Duplicate Elements
+Create an array containing only unique elements.
+
+Example:
+
+Input: {10, 20, 10, 30, 20, 40}
+
+Output: {10, 20, 30, 40} */
+
+let arr=[10, 20, 10, 30, 20, 40]
+let uniarr=[]
+for(let i of arr){
+    if(!uniarr.includes(i))
+        uniarr.push(i)
+}
+console.log(uniarr)
