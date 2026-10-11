@@ -136,3 +136,29 @@ Input: {10, 20, 30, 40, 50} Output: {50, 40, 30, 20, 10}
 
 
 
+
+/* 7. Find the Second Largest Element
+Find the second largest distinct element in an array without using sorting.
+
+Example:
+
+Input: {10, 25, 7, 45, 25, 18} Output: 25 */
+
+
+// let arr = [10, 25, 7, 45, 25, 18];
+
+// let large = arr[0];
+// let seclarge = -Infinity;
+
+// for (let i = 1; i < arr.length; i++) {
+// if (arr[i] > large) {
+// seclarge = large;
+// large = arr[i];
+// }
+// else if (arr[i] > seclarge && arr[i] < large) {
+// seclarge = arr[i];
+// }
+// }
+
+// console.log(seclarge);
+
