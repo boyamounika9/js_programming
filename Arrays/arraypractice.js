@@ -181,3 +181,27 @@ Output: 10 → 3 20 → 2 30 → 1 */
 //     obj[i]=(obj[i]||0)+1
 // }
 // console.log(obj)
+
+
+
+
+
+/* 9. Print Duplicate Elements
+Find and print all duplicate elements in an array.
+
+Example:
+
+Input: {10, 20, 30, 20, 40, 10, 50}
+
+Output: 10 20
+
+*/
+
+
+// let arr=[10, 20, 10, 30, 20, 10]
+// let obj={}
+// for(let i of arr){
+//     obj[i]=(obj[i]||0)+1
+//     if(obj[i]==2)
+//         console.log(i)
+// }
