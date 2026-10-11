@@ -289,3 +289,32 @@ Output: {10, 20, 30, 40, 0, 0, 0}
 // }
 
 // console.log(arr);
+
+
+
+
+/* 13. Find Common Elements Between Two Arrays
+Find the elements that are present in both arrays.
+
+Example:
+
+Array 1: {10, 20, 30, 40, 50} Array 2: {30, 40, 60, 70}
+
+Output: 30 40 */
+
+// let arr1=[10, 20, 30, 40, 50]
+// let arr2=[30, 40, 60, 70]
+
+// if(arr1.length<arr2.length){
+//     let temp=arr1;
+//     arr1=arr2
+//     arr2=temp
+// }
+
+// for(let i of arr1){
+//     if(arr2.includes(i)){
+//        console.log(i)
+//     }
+// }
+
+
