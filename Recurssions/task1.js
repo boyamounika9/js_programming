@@ -103,18 +103,40 @@
 //occcurence
 
 
-function countDigit(n, digit) {
+// function countDigit(n, digit) {
+//     if (n === 0) {
+//         return 0;
+//     }
+
+//     if (n % 10 === digit) {
+//         return 1 + countDigit(Math.floor(n / 10), digit);
+//     }
+
+//     return countDigit(Math.floor(n / 10), digit);
+// }
+
+// console.log(countDigit(1223334, 3)); // 3
+
+
+//first occurence
+
+function firstocc(n, digit) {
     if (n === 0) {
-        return 0;
+        return -1;
+    }
+
+    let result = firstocc(Math.floor(n / 10), digit);
+
+    if (result !== -1) {
+        return result + 1;
     }
 
     if (n % 10 === digit) {
-        return 1 + countDigit(Math.floor(n / 10), digit);
+        return 0;
     }
 
-    return countDigit(Math.floor(n / 10), digit);
+    return -1;
 }
 
-console.log(countDigit(1223334, 3)); // 3
-
+console.log(firstocc(1234, 3)); // 2
 
