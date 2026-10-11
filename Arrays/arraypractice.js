@@ -65,16 +65,37 @@ Input: {10, 15, 22, 7, 8, 13}
 
 Even: 3 Odd: 3 */
 
-let arr=[10, 15, 22, 7, 8, 13]
-let even=0;
-let odd=0;
-for(let i of arr){
-    if(i%2==0){
-        even+=1
-    }
-    else{
-        odd+=1
-    }
+// let arr=[10, 15, 22, 7, 8, 13]
+// let even=0;
+// let odd=0;
+// for(let i of arr){
+//     if(i%2==0){
+//         even+=1
+//     }
+//     else{
+//         odd+=1
+//     }
+// }
+// console.log(`even:${even}`)
+// console.log(`odd:${odd}`)
+
+
+
+
+
+/* 5. Search an Element
+Given an array and a target value, check whether the target exists in the array. If it exists, print its index.
+
+Example:
+
+Input: {10, 20, 30, 40, 50} Target: 30
+
+Output: Element found at index 2 */
+
+
+let arr=[10, 20, 30, 40, 50]
+let target=30
+for(let i=0;i<=arr.length-1;i++){
+    if(arr[i]==target)
+        console.log(` Element found at index ${i}`)
 }
-console.log(`even:${even}`)
-console.log(`odd:${odd}`)
