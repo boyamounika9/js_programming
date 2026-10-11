@@ -162,3 +162,22 @@ Input: {10, 25, 7, 45, 25, 18} Output: 25 */
 
 // console.log(seclarge);
 
+
+
+
+/* 8. Count Frequency of Each Element
+Find how many times each element occurs in an array.
+
+Example:
+
+Input: {10, 20, 10, 30, 20, 10}
+
+Output: 10 → 3 20 → 2 30 → 1 */
+
+
+// let arr=[10, 20, 10, 30, 20, 10]
+// let obj={}
+// for(let i of arr){
+//     obj[i]=(obj[i]||0)+1
+// }
+// console.log(obj)
