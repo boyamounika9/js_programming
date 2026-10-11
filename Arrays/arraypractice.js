@@ -54,3 +54,27 @@ Sum: 150 Average: 30.0 */
 // console.log(`sum:${sum}`)
 // console.log(`Avg:${sum/arr.length}`)
 
+
+
+/* 4. Count Even and Odd Numbers
+Count how many even and odd numbers are present in an array.
+
+Example:
+
+Input: {10, 15, 22, 7, 8, 13}
+
+Even: 3 Odd: 3 */
+
+let arr=[10, 15, 22, 7, 8, 13]
+let even=0;
+let odd=0;
+for(let i of arr){
+    if(i%2==0){
+        even+=1
+    }
+    else{
+        odd+=1
+    }
+}
+console.log(`even:${even}`)
+console.log(`odd:${odd}`)
