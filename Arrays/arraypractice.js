@@ -34,3 +34,23 @@ Input: {12, 5, 18, 3, 9} Output: 3 */
 // }
 // console.log(smallest)
 
+
+
+/* 3. Calculate Sum and Average
+Find the sum and average of all elements in an array.
+
+Example:
+
+Input: {10, 20, 30, 40, 50}
+
+Sum: 150 Average: 30.0 */
+
+
+// let arr=[10, 20, 30, 40, 50]
+// let sum=0;
+// for(let i of arr){
+//     sum+=i
+// }
+// console.log(`sum:${sum}`)
+// console.log(`Avg:${sum/arr.length}`)
+
