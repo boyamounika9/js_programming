@@ -318,3 +318,27 @@ Output: 30 40 */
 // }
 
 
+
+
+/* 14. Separate Positive and Negative Numbers
+Separate the positive and negative numbers present in an array.
+
+Example:
+
+Input: {10, -5, 20, -8, -2, 30}
+
+Output: Positive: 10 20 30 Negative: -5 -8 -2 */ 
+
+// let arr=[10, -5, 20, -8, -2, 30]
+// let positive=[]
+// let negative=[]
+// for(let i of arr){
+//     if(i>0){
+//         positive.push(i)
+//     }
+//     else if(i<0){
+//         negative.push(i)
+//     }
+// }
+// console.log(positive)
+// console.log(negative)
