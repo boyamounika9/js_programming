@@ -239,15 +239,53 @@ Example:
 
 Input: {1, 2, 3, 5, 6} Output: 4 */
 
-let arr = [1, 2, 3, 5, 6];
+// let arr = [1, 2, 3, 5, 6];
 
-let n = arr.length + 1;
+// let n = arr.length + 1;
 
-let totalsum = (n * (n + 1)) / 2;
-let arrsum = 0;
+// let totalsum = (n * (n + 1)) / 2;
+// let arrsum = 0;
 
-for (let i of arr) {
-    arrsum += i;
-}
+// for (let i of arr) {
+//     arrsum += i;
+// }
 
-console.log(totalsum - arrsum);
+// console.log(totalsum - arrsum);
+
+
+
+/* 12. Move All Zeros to the End
+Move all 0s to the end of the array while maintaining the relative order of the non-zero elements.
+
+Example:
+
+Input: {0, 10, 0, 20, 30, 0, 40}
+
+Output: {10, 20, 30, 40, 0, 0, 0}
+
+ */
+
+
+// let arr = [0, 10, 0, 20, 30, 0, 40];
+
+// let first = 0;
+// let sec = 1;
+
+// while (sec < arr.length) {
+// if (arr[first] === 0 && arr[sec] !== 0) {
+// let temp = arr[first];
+// arr[first] = arr[sec];
+// arr[sec] = temp;
+// first++;
+// }
+// else if (arr[first] !== 0) {
+// first++;
+// }
+
+
+// sec++;
+
+
+// }
+
+// console.log(arr);
