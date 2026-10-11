@@ -327,7 +327,7 @@ Example:
 
 Input: {10, -5, 20, -8, -2, 30}
 
-Output: Positive: 10 20 30 Negative: -5 -8 -2 */ 
+Output: Positive: 10 20 30 Negative: -5 -8 -2 */
 
 // let arr=[10, -5, 20, -8, -2, 30]
 // let positive=[]
@@ -342,3 +342,24 @@ Output: Positive: 10 20 30 Negative: -5 -8 -2 */
 // }
 // console.log(positive)
 // console.log(negative)
+
+
+
+/* 15. Find the Pair with Given Sum
+Given an array and a target sum, find two elements whose sum is equal to the target.
+
+Example:
+
+Input: Array = {10, 5, 20, 15, 7} Target = 22
+
+Output: 15 + 7 = 22 */
+
+// let arr = [10, 5, 20, 15, 7]
+// let target = 22
+
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     for (let j =i+ 1; j <= arr.length - 1; j++) {
+//         if (arr[i] + arr[j] == target)
+//             console.log(arr[i], arr[j])
+//     }
+// }
