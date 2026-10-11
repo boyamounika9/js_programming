@@ -86,16 +86,16 @@
 
 //Maximum num in array
 
-function maxNum(arr, i = 0) {
-    if (i === arr.length - 1) {
-        return arr[i];
-    }
+// function maxNum(arr, i = 0) {
+//     if (i === arr.length - 1) {
+//         return arr[i];
+//     }
 
-    let max = maxNum(arr, i + 1);
+//     let max = maxNum(arr, i + 1);
 
-    return arr[i] > max ? arr[i] : max;
-}
+//     return arr[i] > max ? arr[i] : max;
+// }
 
-console.log(maxNum([10, 25, 5, 40, 15]));
+// console.log(maxNum([10, 25, 5, 40, 15]));
 
 
