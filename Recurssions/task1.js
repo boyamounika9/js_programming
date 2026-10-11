@@ -72,15 +72,30 @@
 
 //===========factorial=============\
 
-function fact(n){
-    if(n==0)
-    {
-        return 1
+// function fact(n){
+//     if(n==0)
+//     {
+//         return 1
+//     }
+
+//     return n* fact(n-1)
+
+// }
+// console.log(fact(5))
+
+
+//Maximum num in array
+
+function maxNum(arr, i = 0) {
+    if (i === arr.length - 1) {
+        return arr[i];
     }
 
-    return n* fact(n-1)
+    let max = maxNum(arr, i + 1);
 
+    return arr[i] > max ? arr[i] : max;
 }
-console.log(fact(5))
+
+console.log(maxNum([10, 25, 5, 40, 15]));
 
 
