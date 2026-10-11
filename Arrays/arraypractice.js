@@ -26,11 +26,11 @@ Example:
 Input: {12, 5, 18, 3, 9} Output: 3 */
 
 
-let arr=[12, 5, 18, 3, 9]
-let smallest=arr[0]
-for(let i=1;i<=arr.length-1;i++){
-    if(arr[i]<smallest)
-        smallest=arr[i]
-}
-console.log(smallest)
+// let arr=[12, 5, 18, 3, 9]
+// let smallest=arr[0]
+// for(let i=1;i<=arr.length-1;i++){
+//     if(arr[i]<smallest)
+//         smallest=arr[i]
+// }
+// console.log(smallest)
 
