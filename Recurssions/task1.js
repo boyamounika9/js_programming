@@ -51,19 +51,21 @@
 
 //====================3.chech if a string is palindrome or not========================
 
-function isPalindrome(str) {
-    if (str.length <= 1) {
-        return true;
-    }
+// function isPalindrome(str) {
+//     if (str.length <= 1) {
+//         return true;
+//     }
 
-    if (str[0] !== str[str.length - 1]) {
-        return false;
-    }
+//     if (str[0] !== str[str.length - 1]) {
+//         return false;
+//     }
 
-    return isPalindrome(str.slice(1, -1));
-}
+//     return isPalindrome(str.slice(1, -1));
+// }
 
-console.log(isPalindrome("madam")); // true
-console.log(isPalindrome("hello")); // false
-console.log(isPalindrome("level")); // true
+// console.log(isPalindrome("madam")); // true
+// console.log(isPalindrome("hello")); // false
+// console.log(isPalindrome("level")); // true
+// console.log(isPalindrome("leveol")); // true
+
 
