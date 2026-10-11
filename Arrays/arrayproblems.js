@@ -130,20 +130,20 @@
 
 // Print Duplicate Elements
 
-// let arr=[10, 20, 30, 20, 40, 10, 50]
-// let obj={}
-// for(let i of arr){
-//     obj[i]=(obj[i]||0)+1
-
-//     if(obj[i]>1){
-//         console.log(i)
-//     }
-// }
-
-//Remove Duplicate Elements
-let arr=[10, 20, 10, 30, 20, 40]
+let arr=[10, 20, 30, 20, 40, 10, 50]
 let obj={}
 for(let i of arr){
     obj[i]=(obj[i]||0)+1
+
+    if(obj[i]>1){
+        console.log(i)
+    }
 }
-console.log(Object.keys(obj))
+
+//Remove Duplicate Elements
+// let arr=[10, 20, 10, 30, 20, 40]
+// let obj={}
+// for(let i of arr){
+//     obj[i]=(obj[i]||0)+1
+// }
+// console.log(Object.keys(obj))
