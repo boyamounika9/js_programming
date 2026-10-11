@@ -218,10 +218,36 @@ Input: {10, 20, 10, 30, 20, 40}
 
 Output: {10, 20, 30, 40} */
 
-let arr=[10, 20, 10, 30, 20, 40]
-let uniarr=[]
-for(let i of arr){
-    if(!uniarr.includes(i))
-        uniarr.push(i)
+// let arr=[10, 20, 10, 30, 20, 40]
+// let uniarr=[]
+// for(let i of arr){
+//     if(!uniarr.includes(i))
+//         uniarr.push(i)
+// }
+// console.log(uniarr)
+
+
+
+
+
+// 🟠 MEDIUM+ LEVEL
+
+/* 11. Find the Missing Number
+An array contains numbers from 1 to n, but one number is missing. Find the missing number.
+
+Example:
+
+Input: {1, 2, 3, 5, 6} Output: 4 */
+
+let arr = [1, 2, 3, 5, 6];
+
+let n = arr.length + 1;
+
+let totalsum = (n * (n + 1)) / 2;
+let arrsum = 0;
+
+for (let i of arr) {
+    arrsum += i;
 }
-console.log(uniarr)
+
+console.log(totalsum - arrsum);
