@@ -99,3 +99,22 @@
 // console.log(maxNum([10, 25, 5, 40, 15]));
 
 
+
+//occcurence
+
+
+function countDigit(n, digit) {
+    if (n === 0) {
+        return 0;
+    }
+
+    if (n % 10 === digit) {
+        return 1 + countDigit(Math.floor(n / 10), digit);
+    }
+
+    return countDigit(Math.floor(n / 10), digit);
+}
+
+console.log(countDigit(1223334, 3)); // 3
+
+
