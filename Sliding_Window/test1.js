@@ -49,24 +49,28 @@
 
 
 
-function sum_of_k_min(arr, k) {
-    let min = Infinity;
-    let sum = 0;
 
-    for (let i = 0; i < k; i++) {
-        sum += arr[i]
-    }
-    min = sum
+//find the minimum sum of k consicutive elements let arr=[4, 2, 1, 7, 3, 2];let k=7;output:9 
 
-    for (let i = k; i < arr.length; i++) {
-        sum = sum + arr[i] - arr[i - k]
-        if (sum < min) {
-            min = sum
 
-        }
+// function sum_of_k_min(arr, k) {
+//     let min = Infinity;
+//     let sum = 0;
 
-    }
-    console.log(min)
+//     for (let i = 0; i < k; i++) {
+//         sum += arr[i]
+//     }
+//     min = sum
 
-}
-sum_of_k_min([4, 2, 1, 7, 3, 2], 3)
+//     for (let i = k; i < arr.length; i++) {
+//         sum = sum + arr[i] - arr[i - k]
+//         if (sum < min) {
+//             min = sum
+
+//         }
+
+//     }
+//     console.log(min)
+
+// }
+// sum_of_k_min([4, 2, 1, 7, 3, 2], 3)
