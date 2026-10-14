@@ -26,3 +26,10 @@ s1.clear()
 
 
 console.log(s1)
+
+//write  a js program to remove duplicate char from string
+let str="jeevan"
+let dup=new Set(str)
+for(let value of dup){
+    console.log(value)
+}
