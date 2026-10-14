@@ -27,24 +27,24 @@ console.log(m1)
 
 //find the longest substring length
 
-function longest_substring_length(str){
-    let left=0;
-    let maxlength=0;
-    let set=new Set();
-    for(let right=0;right<str.length;right++){
-        while(set.has(str[right])){
-            set.delete(str[left])
-            left++
-        }
-        set.add(str[right])
+// function longest_substring_length(str){
+//     let left=0;
+//     let maxlength=0;
+//     let set=new Set();
+//     for(let right=0;right<str.length;right++){
+//         while(set.has(str[right])){
+//             set.delete(str[left])
+//             left++
+//         }
+//         set.add(str[right])
 
-        let length=right-left+1
-        maxlength=Math.max(maxlength,length)
-    }
+//         let length=right-left+1
+//         maxlength=Math.max(maxlength,length)
+//     }
 
-    console.log(maxlength)
-}
-longest_substring_length("abcabcbb")
+//     console.log(maxlength)
+// }
+// longest_substring_length("abcabcbb")
 
 
 
