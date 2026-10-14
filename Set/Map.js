@@ -23,3 +23,52 @@ console.log(m1.size)
 m1.clear()
 
 console.log(m1)
+
+
+//find the longest substring length
+
+function longest_substring_length(str){
+    let left=0;
+    let maxlength=0;
+    let set=new Set();
+    for(let right=0;right<str.length;right++){
+        while(set.has(str[right])){
+            set.delete(str[left])
+            left++
+        }
+        set.add(str[right])
+
+        let length=right-left+1
+        maxlength=Math.max(maxlength,length)
+    }
+
+    console.log(maxlength)
+}
+longest_substring_length("abcabcbb")
+
+
+
+//find the longest substring
+
+function longest_substring_length(str){
+    let left=0;
+    let start=0;
+    let maxlength=0;
+    let set=new Set();
+    for(let right=0;right<str.length;right++){
+        while(set.has(str[right])){
+            set.delete(str[left])
+            left++
+        }
+        set.add(str[right])
+        let length=right-left+1
+
+        if(length>maxlength){
+            maxlength=length
+            start=left
+        }
+    }
+
+   return str.slice(start,start+maxlength)
+}
+console.log(longest_substring_length("abcabcbb"))
